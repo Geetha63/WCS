@@ -1,6 +1,7 @@
 ﻿# This script will provide Teams Owner and member details using teams module cmdlets
 $logfile = ".\TeamsOwnerMembersdetailslog_$(get-date -format `"yyyyMMdd_hhmmsstt`").txt"
-$start = [system.datetime]::Now
+
+adding one line
 If(Get-Module -ListAvailable -Name MicrosoftTeams) 
  { 
  Write-Host "MicrosoftTeams Already Installed" 
